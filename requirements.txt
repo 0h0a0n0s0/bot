@@ -1,0 +1,7 @@
+python-telegram-bot>=20.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+httpx>=0.25.0
+cachetools>=5.3.0  # 可選：用於消息去重機制的 TTL Cache（如果未安裝，將使用簡單的 set）
+Pillow>=10.0.0  # 用於圖片生成
+
